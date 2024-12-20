@@ -11,7 +11,7 @@
         <b-table :items="users" :fields="fields" striped hover bordered>
           <template #cell(edit)="data">
             <b-button @click="editUser(data.index)" variant="warning" size="sm" class="action-button">
-              แก้ไข
+             แก้ไข
             </b-button>
           </template>
           <template #cell(remove)="data">

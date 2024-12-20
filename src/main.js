@@ -18,5 +18,5 @@ const pinia = createPinia();
 pinia.use(piniaPersistedState);
 app.use(pinia);
 
-app.use(BootstrapVue3); // ใช้งาน BootstrapVue
+app.use(BootstrapVue3); 
 app.mount('#app');
