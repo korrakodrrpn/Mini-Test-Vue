@@ -11,10 +11,10 @@
         <b-form-input v-model="newUser.email" placeholder="กรอกอีเมล" />
       </b-form-group>
       <b-form-group label="เบอร์โทร">
-        <b-form-input v-model="newUser.phone" placeholder="กรอกอีเมล" />
+        <b-form-input v-model="newUser.phone" placeholder="กรอกเบอร์โทร" />
       </b-form-group>
       <b-form-group label="ที่อยู่">
-        <b-form-input v-model="newUser.address" placeholder="กรอกอีเมล" />
+        <b-form-input v-model="newUser.address" placeholder="กรอกที่อยู่" />
       </b-form-group>
       <b-button @click="saveUser" variant="primary" class="me-2">
         {{ editIndex !== null ? 'อัพเดท' : 'เพิ่ม' }}
